@@ -1,0 +1,25 @@
+.videogame-row {
+    min-height: 35px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid var(--clr-grey-9);
+}
+
+.videogame-row-header {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #e4f1fe;
+}
+
+/* 5 columns */
+.videogame-row div {
+    flex: 1;
+    padding-right: 10px;
+}
+
+/* Give description more room */
+.videogame-row div:nth-child(4) {
+    flex: 2;
+}
